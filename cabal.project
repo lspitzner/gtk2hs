@@ -1,0 +1,8 @@
+packages: cairo/
+          gio/
+          glib/
+          gtk/
+          pango/
+package gtk3
+  flags:
+    build-demos
