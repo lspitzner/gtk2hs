@@ -129,6 +129,10 @@ Flag fmode-binary
                option off.
   Default: True
 
+custom-setup
+  setup-depends:
+    base, process, directory, filepath, Cabal == 1.24.0.0
+
 Library
         build-depends:  base >= 4 && < 5,
                         array, containers, mtl, bytestring,
